@@ -1,0 +1,44 @@
+{
+  "name": "often-used-utils",
+  "version": "1.0.0",
+  "description": "My collection of frequently used utilss",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --require ts-node/register --watch-extensions ts 'tests/**/*.ts' ",
+    "start": "tsc && node ./dist/index.js",
+    "eslint-check": "npx eslint ./src/index.ts",
+    "eslint-fix": "npx eslint ./src/index.ts --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kayalova/often-used-utils.git"
+  },
+  "keywords": [
+    "js-utils",
+    "ts-utils"
+  ],
+  "author": "zarema.kvla@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kayalova/often-used-utils/issues"
+  },
+  "homepage": "https://github.com/kayalova/often-used-utils#readme",
+  "devDependencies": {
+    "@types/chai": "^4.2.13",
+    "@types/mocha": "^8.0.3",
+    "@types/node": "^14.11.8",
+    "@typescript-eslint/eslint-plugin": "^4.4.0",
+    "@typescript-eslint/parser": "^4.4.0",
+    "chai": "^4.2.0",
+    "eslint": "^7.11.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "mocha": "^8.1.3",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.3"
+  },
+  "dependencies": {}
+}
