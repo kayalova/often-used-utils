@@ -26,4 +26,9 @@ describe("utils", () => {
         const array = utils.strToArray("hello")
         expect(array).to.have.members(["h", "e", "l", "l", "o"])
     })
+
+    it("should return whether the data is array type", () => {
+        const isArray = utils.isArray("string")
+        expect(isArray).to.equal(false)
+    })
 })
