@@ -114,5 +114,3 @@ export const areEqual = <T>(...values: Array<T>): boolean => {
     if (areFunctions(...values)) return areEqualFunctions(...values)
     return false
 }
-
-console.log(areEqual({ a: 1 }, { a: 1 }))
