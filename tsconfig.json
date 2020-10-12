@@ -6,6 +6,7 @@
     "noImplicitReturns": true,
     "strictNullChecks": true,
     "noUnusedLocals": true,
+    "sourceMap": true,
     "lib": [
       "ES2015",
       "DOM"

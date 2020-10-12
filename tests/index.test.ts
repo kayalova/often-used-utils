@@ -31,4 +31,29 @@ describe("utils", () => {
         const isArray = utils.isArray("string")
         expect(isArray).to.equal(false)
     })
+
+    it("should return whether diff strings are equal", () => {
+        const areEqual = utils.areEqual("string", "another string")
+        expect(areEqual).to.equal(false)
+    })
+
+    it("should return whether same numbers are equal", () => {
+        const areEqual = utils.areEqual(10, 10)
+        expect(areEqual).to.equal(true)
+    })
+
+    it("should return whether same strings are equal", () => {
+        const areEqual = utils.areEqual("a", "a")
+        expect(areEqual).to.equal(true)
+    })
+
+    it("should return whether same objects values are equal", () => {
+        const areEqual = utils.areEqual({ a: 1 }, { a: 1 })
+        expect(areEqual).to.equal(true)
+    })
+
+    it("should return whether same arrays values are equal", () => {
+        const areEqual = utils.areEqual([1, 3], [1, 3])
+        expect(areEqual).to.equal(true)
+    })
 })
