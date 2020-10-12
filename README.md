@@ -1,6 +1,22 @@
 # Often used utils
 My npm module with frequently used utils
 
-Feel free to use in your projects!
+## To build
+```$ npm run build```
 
-Feedback would be appreciated
+## To run
+```$ npm run start```
+
+## To test
+```$ npm test```
+
+License
+----
+
+MIT
+\
+\
+\
+**Feel free to use in your projects!**
+
+**Feedback would be appreciated**
